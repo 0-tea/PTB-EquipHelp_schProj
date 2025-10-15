@@ -26,4 +26,4 @@ f"""От разработчиков:
     Время работы: {str(datetime.now() - context.bot_data['start_time'])[:-7]}
 """
 
-    await update.message.reply_text(info_text, parse_mode=None) # 'MarkdownV2' parse_mode это что бы в общем то самое было, ну ты понял это же и так понятно, ты же понял верно ?
+    await update.message.reply_text(info_text, parse_mode=None) # 'MarkdownV2' parse_mode
